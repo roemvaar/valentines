@@ -11,9 +11,9 @@ export default function Home() {
   const [selectedDessert, setSelectedDessert] = useState("");
   const [selectedAfterDinner, setSelectedAfterDinner] = useState("");
 
-  const dinnerOptions = ["Seafood", "Mexican Food", "Ramen"];
-  const dessertOptions = ["Ice Cream", "Cake", "Chocolate Fondue"];
-  const afterDinnerOptions = ["Movies", "Drinks", "Bowling"];
+  const dinnerOptions = ["Seafood", "Mexican Food", "Sushi"];
+  const dessertOptions = ["Ice Cream", "Cake", "Pastries"];
+  const afterDinnerOptions = ["Movies", "Drinks", "Arcade"];
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-white text-pink-600">
